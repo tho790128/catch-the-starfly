@@ -25,6 +25,21 @@ if (_left or _right) && (_up or _down)
 velh = (_right - _left) * _spd
 velv = (_down - _up) * _spd
 
+if velh != 0 or velv != 0
+{
+    sprite_index = spr_sapo_walk_frente
+}
+
+if _up
+{
+    sprite_index = spr_sapo_walk_tras
+}
+
+if velh = 0 && velv = 0
+{
+    sprite_index = spr_sapo_idle
+}
+
 x += velh
 y += velv
 
@@ -35,3 +50,4 @@ if y < 0 y = room_height + sprite_height/2
     
 x = round(x)
 y = round(y)
+
