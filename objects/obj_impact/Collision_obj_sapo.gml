@@ -1,0 +1,1 @@
+other.toma_dano(1,id)

@@ -1,0 +1,1 @@
+draw_text(90,90,max_temp)

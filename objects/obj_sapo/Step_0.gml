@@ -22,8 +22,8 @@ if (_left or _right) && (_up or _down)
     _spd = 2
 }
 
-velh = (_right - _left) * _spd
-velv = (_down - _up) * _spd
+velh = lerp(velh,(_right - _left) * _spd,0.5)
+velv = lerp(velv,(_down - _up) * _spd,0.5)
 
 if velh != 0 or velv != 0
 {
