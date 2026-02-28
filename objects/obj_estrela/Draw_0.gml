@@ -8,3 +8,7 @@ draw_set_halign(1)
 draw_set_valign(1)
 
 draw_text_transformed(x,posy,_temp,0.3,0.3,0)
+
+
+draw_set_halign(-1)
+draw_set_valign(-1)

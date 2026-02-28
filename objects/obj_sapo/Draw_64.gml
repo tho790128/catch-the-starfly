@@ -6,3 +6,4 @@ repeat(global.vida)
     _dist += 68
 }
 
+

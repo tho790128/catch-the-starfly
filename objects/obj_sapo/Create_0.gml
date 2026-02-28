@@ -15,6 +15,8 @@ max_temp = 10
 temp_vida = 0
 max_temp_vida = 60
 
+temp_fumaca = 10
+
 toma_dano = function(dano=1,idd)
 {
     if temp_vida <= 0
@@ -32,3 +34,4 @@ toma_dano = function(dano=1,idd)
     }
 }
 
+temp_morreu = 60

@@ -13,3 +13,9 @@ max_temp = 60
 vai = false
 
 randomise()
+
+botoes = ["continue","back to menu","exit"]
+
+index = 0
+
+dist = 0

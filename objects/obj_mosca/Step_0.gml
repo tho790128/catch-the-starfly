@@ -38,6 +38,10 @@ if place_meeting(x,y,obj_sapo) && temp_pego <= 0
     global.onda_cosmica = !global.onda_cosmica
     temp_pego = max_temp_pego
     instance_create_layer(x,y,"sapo",obj_impact)
+    repeat(irandom_range(2,8))
+    {
+        instance_create_layer(x,y,"desastres",obj_fumaca)
+    }
     
     if sprite_index == spr_mosca_dourada global.pontos ++
         
