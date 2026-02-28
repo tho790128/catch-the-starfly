@@ -17,3 +17,5 @@ botoes = ["play","exit"]
 index = 0
 
 dist = 0
+
+global.vida = 3
