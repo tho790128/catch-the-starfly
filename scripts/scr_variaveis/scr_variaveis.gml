@@ -1,4 +1,4 @@
-global.vida = 0
+global.vida = 3
 
 global.onda_cosmica = false
 
