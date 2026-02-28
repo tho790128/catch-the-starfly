@@ -27,6 +27,8 @@ toma_dano = function(dano=1,idd)
         velv += lengthdir_y(8,_dir - 180) 
         
         temp_vida = max_temp_vida
+        
+        
     }
 }
 

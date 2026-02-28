@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mosca",
+  "%Name":"obj_bg",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mosca",
+  "name":"obj_bg",
   "overriddenProperties":[],
   "parent":{
     "name":"torre invertida",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mosca",
-    "path":"sprites/spr_mosca/spr_mosca.yy",
+    "name":"spr_bg",
+    "path":"sprites/spr_bg/spr_bg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

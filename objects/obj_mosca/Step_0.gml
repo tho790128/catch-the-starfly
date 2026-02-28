@@ -1,5 +1,6 @@
 
 
+
 var _dir = point_direction(x,y,obj_sapo.x,obj_sapo.y)
 temp_dir--
 if temp_dir <= 0
@@ -15,8 +16,15 @@ if temp_dir <= 0
     }
 }
 
-x += velh
-y += velv
+if !global.pause
+{
+    x += velh
+    y += velv
+    
+    
+}
+
+
 
 if x > room_width + sprite_width/2 x = sprite_width/2
 if x < 0 x = room_width + sprite_width/2
@@ -29,6 +37,13 @@ if place_meeting(x,y,obj_sapo) && temp_pego <= 0
 {
     global.onda_cosmica = !global.onda_cosmica
     temp_pego = max_temp_pego
+    instance_create_layer(x,y,"sapo",obj_impact)
+    
+    if sprite_index == spr_mosca_dourada global.pontos ++
+        
+    
+    
+    
 }
 
 if global.onda_cosmica
@@ -42,3 +57,9 @@ else
     max_vel = 2
     sprite_index = spr_mosca
 }
+
+if global.vida <= 0
+{
+    instance_destroy()
+}
+

@@ -1,1 +1,1 @@
-other.toma_dano(1,id)
+other.toma_dano(dano,id)
