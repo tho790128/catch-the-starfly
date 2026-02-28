@@ -11,7 +11,7 @@ if global.onda_cosmica
             var _estrela = instance_create_layer(_x,-32,layer,obj_estrela)
             _estrela.posy = _posy
             
-            temp = 1
+            temp = max_temp
         }
     }
 }
